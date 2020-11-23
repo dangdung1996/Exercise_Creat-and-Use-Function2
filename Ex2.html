@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let R = Number(prompt("Nhap ban kinh hinh tron"));
+    function main(){
+        dienTich();
+        chuVi();
+    }
+
+
+    function dienTich() {
+        let S = R * R * 3.14;
+        document.write("Dien tich hinh tron la: " + S);
+    }
+
+    function chuVi() {
+        let C = 2 * R * 3.14;
+        document.write("<br> Chu vi hinh tron la: " + C);
+    }
+
+   main();
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num1 = parseInt(prompt("nhap so thu nhat"))
+    let num2 = parseInt(prompt("nhap so thu 2"))
+    changeNumber();
+
+    function changeNumber() {
+        let a = num1;
+        num1 = num2;
+        num2 = a;
+        alert("so thu nhat la: " + num1 + "<br> So thu 2 la:" + num2)
+    }
+
+
+</script>
+</body>
+</html>

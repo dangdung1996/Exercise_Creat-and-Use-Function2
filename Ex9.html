@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = ['a', 's', 'd', 'f', 'g', 'g', 'h', 'j', 'k', 'l']
+    let a = prompt("nhap ki tu can tim kiem");
+    check();
+
+    function check() {
+        let count = 0;
+        for (let i = 0; i<arr.length; i++) {
+            if (a === arr[i]) {
+                count++
+            }
+        }
+        alert("so lan xuat hien cua " + a + " trong mang la: " + count)
+    }
+
+</script>
+</body>
+</html>

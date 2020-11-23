@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Nhap so can tinh giai thua"));
+    let math = 1;
+    giaiThua();
+    function giaiThua() {
+        for (let i = 1; i <= num; i++) {
+            math = i * math;
+        }document.write("Giai thua cua " + num + " la: "+ math)
+    }
+</script>
+</body>
+</html>
